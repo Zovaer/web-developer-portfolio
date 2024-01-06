@@ -98,6 +98,10 @@ font-weight: 700;
         
     }
 /* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section */
 .about {
@@ -105,5 +109,14 @@ font-weight: 700;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container {
+    
+    display: flex;
+    justify-content: space-around;
+   
+.about-info {
+    text-align: center;
+}
 }
 /* footer section */
