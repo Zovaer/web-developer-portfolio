@@ -129,13 +129,43 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     color: var(--Dark-03, #757575);
 }
 /* resume related style */
-/* .resume-container {
+.resume-container {
 display: flex;
-justify-content: space-around;
-} */
+gap: 50px;
+}
 .resume-column-title{
 color: var(--Dark-02, #474747);
 font-size: 30px;
 font-weight: 700;
+
+}
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-item-description{
+    color: var(--Dark-03, #757575);
+    
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.resume-item-institute{
+    color: var(--Dark-03, #757575); 
+    font-size: 20px;
+    font-weight: 600; 
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-container hr {
+    margin: 30px;
+}
+.dwonload-cv {
+    text-align: center;
+    margin-top: 50px;
 }
 /* footer section */
